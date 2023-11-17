@@ -51,3 +51,7 @@ Restart TF2 and everything should work.
 - I'm likely to test out cleaning up more of the original HUD spec. If anyone sees opportunities to clean up more of the original KBNHud stuff, please let me know.
   - E.g. Using the pin logic improved stuff a lot, but I only touched the minimal stuff necessary to get it working.
   - E.g. KBNHud pushes a lot of the default elements off screen to "remove" them. Maybe there are cleaner ways?
+
+## Thanks
+
+- [@JarateKing](https://github.com/JarateKing) for the [TF2-Hud-Reference](https://github.com/JarateKing/TF2-Hud-Reference) docs
