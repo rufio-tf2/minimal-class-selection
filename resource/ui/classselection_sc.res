@@ -35,7 +35,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
-		"ypos"			"c-60"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"190"
