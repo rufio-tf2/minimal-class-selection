@@ -2,7 +2,9 @@
 
 Due to the removal of the `extendfreeze` command, I'm trying a modified version of [KBNHud's (by Jotunn)](https://gamebanana.com/mods/26847) minimal class selection screen.
 
-The changes that I made to KBNHud's:
+_This is **ONLY** the class selection UI._
+
+The changes that I made to KBNHud's class selection UI:
 
 - Anchor to the left of the screen to get it out of the way
 - Swap the custom fonts to built-in fonts
@@ -14,7 +16,7 @@ This is meant to only be used with TF2's default HUD as a minimal change, rather
 
 ## Download
 
-Download the ZIP of this repo and extract the ZIP.
+[Download the ZIP](https://github.com/rufio-tf2/minimal-class-selection-hud/archive/refs/heads/main.zip) of this repo and extract the ZIP.
 
 ## Install
 
