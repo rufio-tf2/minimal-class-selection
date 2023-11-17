@@ -4,7 +4,7 @@
 
 Due to the removal of the `extendfreeze` command, I'm trying a modified version of [KBNHud's (by Jotunn)](https://gamebanana.com/mods/26847) minimal class selection screen.
 
-_This is **ONLY** the class selection UI._
+_This is **ONLY** the class selection screen. No other HUD changes._
 
 The changes that I made to KBNHud's class selection UI:
 
