@@ -54,4 +54,5 @@ Restart TF2 and everything should work.
 
 ## Thanks
 
-- [@JarateKing](https://github.com/JarateKing) for the [TF2-Hud-Reference](https://github.com/JarateKing/TF2-Hud-Reference) docs
+- [@Jotunn](https://gamebanana.com/members/1247574) for making a HUD with a super clean, minimal class selection screen.
+- [@JarateKing](https://github.com/JarateKing) for the [TF2-Hud-Reference](https://github.com/JarateKing/TF2-Hud-Reference) docs.
