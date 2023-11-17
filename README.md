@@ -1,5 +1,7 @@
 # Minimal Class Selection HUD
 
+<img src="docs/classselection-2.png" alt="Image of new Class Selection screen">
+
 Due to the removal of the `extendfreeze` command, I'm trying a modified version of [KBNHud's (by Jotunn)](https://gamebanana.com/mods/26847) minimal class selection screen.
 
 _This is **ONLY** the class selection UI._
@@ -11,8 +13,6 @@ The changes that I made to KBNHud's class selection UI:
 - Refactor hardcoded x/y position values for relative positions to group the core stuff
 
 This is meant to only be used with TF2's default HUD as a minimal change, rather than worked into another custom HUD. I don't use custom HUDs, and I made this for myself.
-
-<img src="docs/classselection-2.png" alt="Image of new Class Selection screen">
 
 ## Download
 
