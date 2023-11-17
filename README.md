@@ -14,6 +14,35 @@ The changes that I made to KBNHud's class selection UI:
 
 This is meant to only be used with TF2's default HUD as a minimal change, rather than worked into another custom HUD. I don't use custom HUDs, and I made this for myself.
 
+## Positioning the box around the screen
+
+Now that I have all of the element positioned as a group, to move the class selection box, you only need to move the position of the `"MainBG"` elements in the `classselection.res` file (and the `classselection_sc.res` file? I don't know what that's used for.)
+
+For example:
+
+```diff
+"MainBG"
+{
+  "ControlName"	"ImagePanel"
+  "fieldName"		"MainBG"
+  "xpos"			"0"
+-  "ypos"			"0"
++  "ypos"			"100"
+  "zpos"			"-1"
+  "wide"			"120"
+  "tall"			"190"
+  "autoResize"	"0"
+  "pinCorner"		"0"
+  "visible"		"1"
+  "enabled"		"1"
+  "fillcolor"		"0 0 0 127"
+}
+```
+
+I just moved it to anchor into the top-left of the screen so that chat text is still visible while in the class selection screen. The trade-off is that it now overlaps with the Engineer's buildings HUD.
+
+Could alternatively anchor it to the right side of the screen below the killfeed.
+
 ## Download
 
 [Download the ZIP](https://github.com/rufio-tf2/minimal-class-selection-hud/archive/refs/heads/main.zip) of this repo and extract the ZIP.
