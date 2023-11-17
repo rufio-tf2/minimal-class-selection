@@ -2,7 +2,7 @@
 
 <img src="docs/classselection-2.png" alt="Image of new Class Selection screen">
 
-> ## _**ONLY** the class selection screen. No other HUD changes._
+> ### _Only changes the class selection screen._
 
 Due to the removal of the `extendfreeze` command, I'm trying a modified version of [KBNHud's (by Jotunn)](https://gamebanana.com/mods/26847) minimal class selection screen.
 
