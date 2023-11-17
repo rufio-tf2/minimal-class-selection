@@ -16,7 +16,7 @@ This is meant to only be used with TF2's default HUD as a minimal change, rather
 
 ## Positioning the box around the screen
 
-Now that I have all of the element positioned as a group, to move the class selection box, you only need to move the position of the `"MainBG"` elements in the `classselection.res` file (and the `classselection_sc.res` file? I don't know what that's used for.)
+Now that I have all of the element positioned as a group, to move the class selection box, you only need to move the position of the `"MainBG"` element in the `classselection.res` file (and the `classselection_sc.res` file? I don't know what that's used for.)
 
 For example:
 
