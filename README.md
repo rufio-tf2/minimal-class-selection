@@ -11,14 +11,17 @@ The changes that I made to KBNHud's class selection UI:
 - Anchor to the left of the screen to get it out of the way
 - Swap the custom fonts to built-in fonts
 - Refactor hardcoded x/y position values for relative positions to group the core stuff
+- Disable visibility for offscreen elements
 
 This is meant to only be used with TF2's default HUD as a minimal change, rather than worked into another custom HUD. I don't use custom HUDs, and I made this for myself.
 
 ## Positioning the box around the screen
 
-Now that I have all of the element positioned as a group, to move the class selection box, you only need to move the position of the `"MainBG"` element in the `classselection.res` file (and the `classselection_sc.res` file? I don't know what that's used for.)
+Currently, it's anchored to the top-left of the screen so that chat text is still visible while in the class selection screen. The trade-off is that it now overlaps with the Engineer's buildings HUD.
 
-For example:
+If you want to move the box around, you (now) only need to move the position of the `"MainBG"` element in the `classselection.res` file and the `classselection_sc.res` file (I don't know what the `_sc` file is used for but I've been maintaining parity for the overlap.)
+
+For example, this changes the `ypos` from `0` to `100`:
 
 ```diff
 "MainBG"
@@ -39,9 +42,9 @@ For example:
 }
 ```
 
-I just moved it to anchor into the top-left of the screen so that chat text is still visible while in the class selection screen. The trade-off is that it now overlaps with the Engineer's buildings HUD.
+You could try anchoring it to the right side of the screen below the killfeed.
 
-Could alternatively anchor it to the right side of the screen below the killfeed.
+[Read more about positioning here.](https://github.com/JarateKing/TF2-Hud-Reference/blob/master/1-APPENDIX/Positioning.md)
 
 ## Download
 
@@ -77,9 +80,7 @@ Restart TF2 and everything should work.
 ## Disclaimers
 
 - I'm a noob at making HUDs. I don't use custom HUDs, and I haven't cared about them until this workaround for extending spectate.
-- I'm likely to test out cleaning up more of the original HUD spec. If anyone sees opportunities to clean up more of the original KBNHud stuff, please let me know.
-  - E.g. Using the pin logic improved stuff a lot, but I only touched the minimal stuff necessary to get it working.
-  - E.g. KBNHud pushes a lot of the default elements off screen to "remove" them. Maybe there are cleaner ways?
+- If anyone sees opportunities to clean up more of the original KBNHud stuff, please let me know.
 
 ## Thanks
 
