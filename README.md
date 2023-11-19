@@ -23,19 +23,19 @@ For example:
 ```diff
 "MainBG"
 {
-  "ControlName"	"ImagePanel"
-  "fieldName"		"MainBG"
-  "xpos"			"0"
--  "ypos"			"0"
-+  "ypos"			"100"
-  "zpos"			"-1"
-  "wide"			"120"
-  "tall"			"190"
-  "autoResize"	"0"
-  "pinCorner"		"0"
-  "visible"		"1"
-  "enabled"		"1"
-  "fillcolor"		"0 0 0 127"
+  "ControlName" "ImagePanel"
+  "fieldName" "MainBG"
+  "xpos" "0"
+-  "ypos" "0"
++  "ypos" "100"
+  "zpos" "-1"
+  "wide" "120"
+  "tall" "190"
+  "autoResize" "0"
+  "pinCorner" "0"
+  "visible" "1"
+  "enabled" "1"
+  "fillcolor" "0 0 0 127"
 }
 ```
 
