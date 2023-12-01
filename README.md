@@ -1,6 +1,6 @@
 # Minimal Class Selection HUD
 
-<img src="docs/classselection-2.png" alt="Image of new Class Selection screen">
+<img src="docs/classselection-2.jpg" alt="Image of new Class Selection screen">
 
 > ### _Only changes the class selection screen._
 
